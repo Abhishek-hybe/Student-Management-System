@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h2>Registration</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="username">Username(Put The SIC No.)</label>
+                    <input type="text" placeholder="Enter Sic No." name="uname" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Enter valid E-mail address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Enter Phone Number" name="phoneNumber" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter New Password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <label for="Cpassword">Confrim Password</label>
+                    <input type="password" placeholder="Confrim Password" name="confrimPassword" required>
+                </div>
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="gender">Others</label>
+                </div>
+                <br>
+                <span class="branch-title">Choose Branch</span>
+                <div class="branch-category">
+                    <input type="radio" name="branch" id="CSE">
+                    <label for="branch">CSE</label>
+                    <input type="radio" name="branch" id="CST">
+                    <label for="branch">CST</label>
+                    <input type="radio" name="branch" id="CEN">
+                    <label for="branch">CEN</label>
+                    <input type="radio" name="branch" id="ECE">
+                    <label for="branch">ECE</label>
+                    <input type="radio" name="branch" id="EEE">
+                    <label for="branch">EEE</label>
+                    <input type="radio" name="branch" id="EIE">
+                    <label for="branch">EIE</label>
+                    
+                </div>
+            </div>
+            <div class="alert">
+                <p>By clicking <strong><em>Register</em></strong>, you agree to our <a href="#">Terms,</a><a href="#">Privacy Policy,</a> and <a 
+                    href="#">Cookies Policy.</a> You may recieve SMS notification from us and can opt out at any time.</p>
+            </div>
+            <div class="button-container">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
